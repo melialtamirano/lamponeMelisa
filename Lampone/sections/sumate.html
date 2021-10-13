@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamponeSumate</title>
+       <!--tipografia Mrs Saint Delafield-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+       <!--tipografia roboto-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body id="fondoLisoRosa">
+    <header class="menu">  
+        <div>
+            <a href="../index.html"> <img src="../img/logoLamponeBlancoSinFondo.png" alt="logoLampone" width="100px" style="display: inline-block;"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+              <li class="li"> <a href="../index.html">INICIO</a></li>
+              <li class="li"> <a href="productos.html">PRODUCTOS</a></li>
+              <li class="li"> <a href="finca.html">FINCA</a></li>
+              <li class="li"> <a href="nosotros.html">NOSOTROS</a></li>
+              <li class="li"> <a href="sumate.html">SUMATE</a></li>
+              <li class="li"> <a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        </header>
+    <h1>SUMATE A NUESTRO EQUIPO</h1>
+    <div class="seccionRosa">
+        <img src="../img/trabajadores.jpeg" alt="trabajadores" height="200px" class="bordeImagenes">
+        <p id="textoSumate">En Lampone creemos que todos tenemos una meta en común, la cual es progresar y dar lo mejor por la empresa. Es por ello que preferimos llamar a las personas que trabajan con nosotros “colaboradores”, ya que son una gran pieza en este proyecto.</p>
+    </div>
+    <section id=fondoFormularioSumate>
+        <h2 id="envianos">ENVIANOS TU CV</h2>
+        <p class="parrafoBlanco">Nos comunicaremos cuando tengamos abierta una posición que coincida con tu perfil ¡Muchas gracias!</p>
+        <div class="formularioSumate">
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="nombre" class="textoTituloFormularios">NOMBRE</label> <br>
+                        <input type="text" name="nombre" placeholder="Escribe tu nombre..." required/> 
+                    </div> 
+                        <br>
+                    <div>
+                        <label class="textoTituloFormularios">EMAIL</label> <br>
+                        <input type="text" name="mail" placeholder="Escribe tu email..." required/> 
+                     </div> 
+                         <br>
+                     <div>
+                        <label for="telefono" class="textoTituloFormularios">TELÉFONO</label> <br>
+                        <input type="text" name="telefono" placeholder="Escribe tu teléfono..." required/> 
+                    </div> 
+                         <br>
+                    <div> 
+                        <span class="textoTituloFormularios">SELECCIONA EL ÁREA DE TU INTERÉS</span> <br>
+                        <select name="areaDeInterés">
+                               <option value="nule">Selecciona una opción</option> 
+                               <option value="mkt">Marketing</option> 
+                               <option value="ventas">Ventas</option>
+                               <option value="rrhh">Recursos Humanos</option>
+                               <option value="cosecha">Cosecha</option> 
+                               <option value="otra">Otra</option> 
+                        </select>
+                    </div>
+                        <br>
+                    <div>
+                        <label for="consulta" class="textoTituloFormularios">CONTANOS MÁS SOBRE VOS Y TUS INTERESES</label> <br>
+                        <textarea name="consulta"> </textarea>
+                    </div>
+                    <div>
+                        <span class="textoTituloFormularios">ADJUNTA TU CURRICULUM</span>
+                    </div>
+                    <div class="botoneraInicio">
+                        <input type="reset" value="BORRAR" class= "botonFormulario">
+                        <input type="submit" value="ENVIAR" class="botonFormulario">
+                    </div>
+                        <br>
+                        <br>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+<footer>
+    <div class="footer">
+        <h5>LAMPONE COMPANY</h5>
+    </div> 
+    <div class="footer">
+        <h5>SAN JAVIER - KILOMETRO 80 - CÓRDOBA, ARGENTINA</h5>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,366 @@
+body {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    }
+
+/*etiquetasGenerales*/
+
+.fondoFrambuesas {
+    background-image: url(../img/frambuesaFondo.jpeg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80.6vh;
+    margin-top: 0vh;
+}
+
+#fondoLisoRosa {
+    background-color: #c12f48;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+} 
+
+h1 {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight:bold;
+}
+h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+h5 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.parrafoBlanco {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight:500;
+}
+
+.bordeImagenes {
+    margin: 3rem 1rem 1rem 5rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.3rem;
+}
+
+.botonFormulario {
+    background-color: #769125;
+    border-style: outset;
+    border-color: #769125;
+    border: 0.1rem 4rem 0.1rem 4rem;
+    border-style: outset;
+    margin: 1rem;
+    width: 15vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+
+}
+
+.botoneraForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+/*menu*/
+
+.menu {
+    background-color: #ba000d;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+ 
+.li {
+    position: relative;
+    display: inline-block;
+    margin: 0rem 1rem;
+}
+ 
+.li a {
+    display: block;
+    padding: 1, 5rem 2rem;
+    text-decoration: none;
+    color: white;
+    background-color: #ba000d;
+    width: 16rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 1.5rem;
+}
+
+.li a:hover {
+    color: #d12631;
+}
+
+/*footer*/
+
+footer{
+    background-color: #ba000d;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+/*Inicio*/
+
+.inicioLampone {
+    color:rgb(255, 255, 255);
+    font-family:'Mrs Saint Delafield', cursive;
+    font-size: 14rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0rem;
+    padding-top: 4rem;
+    margin-bottom: 4.5rem;
+}
+.fraseInicio {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+}
+.botoneraInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#botonesInicio {
+    background-color: #769125;
+    border: 0.1rem 4rem 0.1rem 4rem;
+    border-style: outset;
+    border-color: #769125;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin: 1rem;
+    width: 15vw;
+}
+
+
+/*seccionProductos*/
+
+.descripcionProducto {
+    background-color: #dbf586;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight:500;
+    padding-top: 10rem;
+    padding-right: 5rem;
+
+}
+.imagenProducto {
+    background-color: #dbf586;
+    justify-self: stretch;
+}
+
+
+
+/*seccionNosotros*/
+
+.videoNosotros {
+    width:"560px";
+    height:"315px";
+}
+.seccionVerde {
+    background-color: #779227;
+    display: inline-block;
+}
+
+.portadaNosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    width: 100%;
+    padding: 2rem;
+}
+
+/*seccionFinca*/
+
+#listaFinca {
+    list-style-type:circle;
+    list-style-position: inside;
+}
+
+.seccionUno{
+    background-color: #c12f48;
+    
+}
+
+
+.seccionVerde {
+    background-color: #779227;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    }
+
+.seccionRosa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+#textoSumate {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight:500;
+    margin: 1rem 3rem 0rem 3rem;
+}
+
+#envianos {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight:bold;
+    padding-top: 2rem;
+}
+
+#fondoFormularioSumate {
+    background-color:#779227;
+    margin-bottom: 0rem;
+    border-bottom-style: solid;
+    border-bottom-color: #779227;
+    border-bottom-width: 2rem;
+
+}
+.formularioSumate {
+    background-color: #97b345;
+    border-style: solid;
+    border-color: #97b345;
+    border-width: 0.3rem;
+    margin: 0rem 30rem 2rem 30rem;
+}
+
+/*seccionContacto*/
+
+.formularioContacto {
+    background: linear-gradient(to right, #769125, #dbf586 );
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1rem;
+    padding: 0rem 1.5rem 1rem 1.5rem;
+}
+
+#seccionContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem 0rem 1rem 0rem;
+
+}
+
+/*formularios*/
+
+.textoTituloFormularios{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight:600;
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+    #grillaMermelada {
+        display: grid;
+        grid-template-areas: 
+        ". tituloProducto ."
+        ". imagenProducto . "
+        ". descripcionProducto .";
+        grid-template-rows: 1fr 4fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem;
+    }
+    #grillaFrambuesas {
+        display: grid;
+        grid-template-areas: 
+        ". tituloProducto ."
+        ". imagenProducto . "
+        ". descripcionProducto .";
+        grid-template-rows: 1fr 4fr 2fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2rem;
+        justify-items: stretch;
+    }
+
+    }
+
+@media only screen and (max-width: 425px) {
+    .seccionVerde {
+        background-color: #779227;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        width: 100%;
+        }
+    .seccionRosa{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        }
+        .videoNosotros {
+            width:"300px";
+            height:"100px";
+        }
+    }
+
+    
+    

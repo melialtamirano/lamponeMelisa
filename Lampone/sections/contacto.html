@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lamponeContacto</title>
+      <!--tipografia Mrs Saint Delafield-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+      <!--tipografia roboto-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="../style/style.css">
+</head>
+<body class="fondoFrambuesas">
+    <header class="menu"> 
+        <div> 
+        <a href="../index.html"> <img src="../img/logoLamponeBlancoSinFondo.png" alt="logoLampone" width="100px" style="display: inline-block;"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+              <li class="li"> <a href="../index.html">INICIO</a></li>
+              <li class="li"> <a href="productos.html">PRODUCTOS</a></li>
+              <li class="li"> <a href="finca.html">FINCA</a></li>
+              <li class="li"> <a href="nosotros.html">NOSOTROS</a></li>
+              <li class="li"> <a href="sumate.html">SUMATE</a></li>
+              <li class="li"> <a href="contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+        </header>
+    <section id="seccionContacto">
+        <div>
+            <h1>CONTACTO</h1>
+            <h2><u>DIRECCIÓN</u></h2>
+            <h5>SAN JAVIER - KILÓMETRO 80 - CÓRDOBA - ARGENTINA</h5>
+            <h2><u>TELÉFONO</u></h2>
+            <h5>(+54) 03544-448611</h5>
+            <h2><u>EMAIL</u></h2>
+            <h5>CONTACTO@LAMPONE.COM</h5>   
+        </div>
+        <div class="formularioContacto">
+            <form>
+                <fieldset>
+                    <legend> <h1 style="letter-spacing: 5px;">ESCRIBINOS</h1></legend>
+                    <div>
+                    <label for="nombre" class="textoTituloFormularios">NOMBRE</label><br>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre..." required/> 
+                    </div> 
+                    <br>
+                    <div>
+                    <label for="email" class="textoTituloFormularios">EMAIL</label><br>
+                    <input type="text" name="email" placeholder="Escribe tu email..." required/> 
+                    </div> 
+                    <br>
+                    <div>
+                        <label for="email" class="textoTituloFormularios">TELÉFONO</label><br>
+                        <input type="text" name="email" placeholder="Número de teléfono..." required/> 
+                    </div> 
+                    <br>
+                    <div>
+                        <span class="textoTituloFormularios">SELECCIONA EL MOTIVO DE TU CONSULTA</span> <br> 
+                    <label for="precio-minorista" class="parrafoBlanco">Precio minorista</label>
+                    <input type="checkbox" name="precio-minorista" value="Precio minorista"/> <br>
+                    <label for="precio-mayorista" class="parrafoBlanco">Precio mayorista</label>
+                    <input type="checkbox" name="precio-mayorista" value="Precio mayorista"/><br>
+                    <label for="visita-individual" class="parrafoBlanco">Visita individual a la finca</label>
+                    <input type="checkbox" name="visita-individual" value="Visita individual a la finca"/><br>
+                    <label for="visita-grupal" class="parrafoBlanco">Visita grupal a la finca</label>
+                    <input type="checkbox" name="visita-grupal" value="Visita grupal a la finca"/><br>
+                    <label for="proveedores" class="parrafoBlanco">Proveedores</label>
+                    <input type="checkbox" name="proveedores" value="Proveedores"/><br>
+                    </div>
+                    <br>
+                    <div> 
+                        <span class="textoTituloFormularios">DETERMINA UN NIVEL DE URGENCIA</span> <br>
+                    <select name="importancia">
+                        <option value="alta">Alto</option> 
+                        <option value="media">Medio</option>
+                        <option value="baja">Bajo</option>
+                    </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="consulta" class="textoTituloFormularios">ESCRIBE TU CONSULTA</label> <br>
+                        <textarea name="consulta"> </textarea>
+                    </div>
+                    <input type="reset" value="BORRAR" class="botonFormulario" >
+                    <input type="submit" value="ENVIAR" class="botonFormulario">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+<footer>
+   <div class="footer">
+       <h5>LAMPONE COMPANY</h5>
+   </div> 
+   <div class="footer">
+       <h5>SAN JAVIER - KILOMETRO 80 - CÓRDOBA, ARGENTINA</h5>
+   </div>
+</footer>
+</body>
+</html>
